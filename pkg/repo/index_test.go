@@ -27,10 +27,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/helmpath"
+	"github.com/aimjianzhang/helm/pkg/chart"
+	"github.com/aimjianzhang/helm/pkg/cli"
+	"github.com/aimjianzhang/helm/pkg/getter"
+	"github.com/aimjianzhang/helm/pkg/helmpath"
 )
 
 const (

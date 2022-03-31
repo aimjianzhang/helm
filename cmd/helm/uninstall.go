@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
+	"github.com/aimjianzhang/helm/cmd/helm/require"
+	"github.com/aimjianzhang/helm/pkg/action"
 )
 
 const uninstallDesc = `

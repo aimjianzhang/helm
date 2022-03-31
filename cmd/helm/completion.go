@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
+	"github.com/aimjianzhang/helm/cmd/helm/require"
 )
 
 const completionDesc = `

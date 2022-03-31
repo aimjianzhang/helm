@@ -27,9 +27,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/term"
 
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/provenance"
+	"github.com/aimjianzhang/helm/pkg/chart/loader"
+	"github.com/aimjianzhang/helm/pkg/chartutil"
+	"github.com/aimjianzhang/helm/pkg/provenance"
 )
 
 // Package is the action for packaging a chart.

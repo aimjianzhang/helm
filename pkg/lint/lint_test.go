@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/lint/support"
+	"github.com/aimjianzhang/helm/pkg/chartutil"
+	"github.com/aimjianzhang/helm/pkg/lint/support"
 )
 
 var values map[string]interface{}

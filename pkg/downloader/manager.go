@@ -34,16 +34,16 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/resolver"
-	"helm.sh/helm/v3/internal/third_party/dep/fs"
-	"helm.sh/helm/v3/internal/urlutil"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/registry"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/aimjianzhang/helm/internal/resolver"
+	"github.com/aimjianzhang/helm/internal/third_party/dep/fs"
+	"github.com/aimjianzhang/helm/internal/urlutil"
+	"github.com/aimjianzhang/helm/pkg/chart"
+	"github.com/aimjianzhang/helm/pkg/chart/loader"
+	"github.com/aimjianzhang/helm/pkg/chartutil"
+	"github.com/aimjianzhang/helm/pkg/getter"
+	"github.com/aimjianzhang/helm/pkg/helmpath"
+	"github.com/aimjianzhang/helm/pkg/registry"
+	"github.com/aimjianzhang/helm/pkg/repo"
 )
 
 // ErrRepoNotFound indicates that chart repositories can't be found in local repo cache.

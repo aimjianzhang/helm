@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/aimjianzhang/helm/pkg/chart"
+	"github.com/aimjianzhang/helm/pkg/release"
 )
 
 // Check if file completion should be performed according to parameter 'shouldBePerformed'

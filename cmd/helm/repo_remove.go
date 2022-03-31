@@ -25,9 +25,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/aimjianzhang/helm/cmd/helm/require"
+	"github.com/aimjianzhang/helm/pkg/helmpath"
+	"github.com/aimjianzhang/helm/pkg/repo"
 )
 
 type repoRemoveOptions struct {

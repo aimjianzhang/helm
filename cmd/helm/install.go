@@ -30,15 +30,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/cli/values"
-	"helm.sh/helm/v3/pkg/downloader"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/aimjianzhang/helm/cmd/helm/require"
+	"github.com/aimjianzhang/helm/pkg/action"
+	"github.com/aimjianzhang/helm/pkg/chart"
+	"github.com/aimjianzhang/helm/pkg/chart/loader"
+	"github.com/aimjianzhang/helm/pkg/cli/output"
+	"github.com/aimjianzhang/helm/pkg/cli/values"
+	"github.com/aimjianzhang/helm/pkg/downloader"
+	"github.com/aimjianzhang/helm/pkg/getter"
+	"github.com/aimjianzhang/helm/pkg/release"
 )
 
 const installDesc = `
